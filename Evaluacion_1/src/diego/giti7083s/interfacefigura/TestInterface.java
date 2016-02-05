@@ -13,17 +13,17 @@ public class TestInterface implements Figura{
 	/**
 	 * Asosiacion de las clase Cuadrado
 	 */
-	private Cuadrado cuadrado;
+	//private Cuadrado cuadrado;
 	
 	/**
 	 * Asosiacion de las clase Circulo
 	 */
-	private Circulo circulo;
+	//private Circulo circulo;
 	
 	/**
 	 * Asosiacion de las clase Triangulo
 	 */
-	private Triangulo triangulo;
+	//private Triangulo triangulo;
 	
 	/**
 	 * 
@@ -31,11 +31,11 @@ public class TestInterface implements Figura{
 	 * @param circulo
 	 * @param triangulo
 	 */
-	public TestInterface(Cuadrado cuadrado, Circulo circulo, Triangulo triangulo) {
+	public TestInterface() {
 		// TODO Auto-generated constructor stub
-		this.cuadrado = new Cuadrado();
-		this.circulo = new Circulo();
-		this.triangulo = new Triangulo();
+		Cuadrado cuadrado = new Cuadrado();
+		Circulo circulo= new Circulo();
+		Triangulo triangulo = new Triangulo();
 	}
 
 }
