@@ -35,6 +35,7 @@ public class Proyecto {
 	 * constructor del la clase
 	 */
 	public Proyecto(Presupuestos presupuestos,Maquina maquina) {
+		System.out.println("El proyecto es de TI, el nombre es GuiTuristica, El estado es Alta Prioridad"+"\n");
 		// TODO Auto-generated constructor stub
 	}
 

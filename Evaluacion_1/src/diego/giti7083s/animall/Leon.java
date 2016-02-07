@@ -25,7 +25,10 @@ public class Leon extends Animal{
 		// TODO Auto-generated method stub
 		super.dibuja();
 	}
-	
+	public Leon() {
+		System.out.println("Soy un Leon llevo a Diego al trabajo"+"\n");
+		// TODO Auto-generated constructor stub
+	}
 	
 
 }

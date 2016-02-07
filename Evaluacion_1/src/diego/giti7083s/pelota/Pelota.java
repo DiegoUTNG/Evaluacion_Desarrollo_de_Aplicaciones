@@ -16,5 +16,9 @@ public abstract class Pelota implements Rebotable{
 	public static void setRedondez(int redondez){
 		
 	}
+	public Pelota() {
+		System.out.println("Eligio una pelota de futbol :D"+"\n");
+		// TODO Auto-generated constructor stub
+	}
 
 }

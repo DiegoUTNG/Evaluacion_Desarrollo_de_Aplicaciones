@@ -27,5 +27,9 @@ public class TelefonoMovil implements Telefono {
 		return null;
 
 	}
+	public TelefonoMovil() {
+		System.out.println("Usted a elegido un telefono movil"+"\n");
+		// TODO Auto-generated constructor stub
+	}
 
 }

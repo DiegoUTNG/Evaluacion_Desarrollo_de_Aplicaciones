@@ -3,25 +3,30 @@
  */
 package diego.giti7083s.figuras;
 
+import java.util.Scanner;
+
+
+
 /**
  * @author Diego
  *
  */
 public class Test {
-
 	/**
 	 * 
 	 */
-	public Test() {
-		// TODO Auto-generated constructor stub
+	public void Test(){
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		Figura figura= new Circulo();
 	}
-
 	/**
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new Test().Test();
 	}
 
 }

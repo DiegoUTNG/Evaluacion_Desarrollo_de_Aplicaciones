@@ -8,5 +8,6 @@ package diego.giti7083s.factory;
  *
  */
 public interface ProductoA {
+	
 
 }

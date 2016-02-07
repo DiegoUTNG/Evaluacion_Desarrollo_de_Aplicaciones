@@ -13,5 +13,9 @@ public class Circulo extends Figura{
 	 */
 	private Punto centro;
 	private double radio;
-
+	
+	public Circulo() {
+		System.out.println("Soy un circulo de "+"\n Radio 3");
+		// TODO Auto-generated constructor stub
+	}
 }

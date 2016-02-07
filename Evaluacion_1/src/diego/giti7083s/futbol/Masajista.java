@@ -27,6 +27,7 @@ public class Masajista extends SeleccionFutbol{
 	 * constructor de la clase
 	 */
 	public Masajista() {
+		System.out.println("Soy Rubens el masajista");
 		// TODO Auto-generated constructor stub
 	}
 

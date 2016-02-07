@@ -3,25 +3,31 @@
  */
 package diego.giti7083s.futbol;
 
+import java.util.Scanner;
+
+
+
 /**
  * @author Diego
  *
  */
 public class Test {
 
+	public void testFutbol(){
+		IntegranteSeleccionFutbol integranteSeleccionFutbol;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Integrantes de la seleccion de Futbol Española: ");
+		integranteSeleccionFutbol= new Entrenador();
+		integranteSeleccionFutbol= new Futbolista();
+		integranteSeleccionFutbol= new Masajista();
+	}
+	
 	/**
 	 * 
-	 */
-	public Test() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new Test().testFutbol();
 	}
 
 }

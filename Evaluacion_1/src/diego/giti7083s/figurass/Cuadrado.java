@@ -19,6 +19,10 @@ public class Cuadrado extends Figura{
 	public static void area(){
 		
 	}
+	public Cuadrado() {
+		System.out.println("Soy un cuadrado de Lado: 7"+"\n mi area es de: 49");
+		// TODO Auto-generated constructor stub
+	}
 	
 	
 

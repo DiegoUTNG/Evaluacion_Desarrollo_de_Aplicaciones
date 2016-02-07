@@ -11,5 +11,10 @@ package diego.giti7083s.acciones;
  *
  */
 public class Gato extends Animal{
+	public Gato() {
+		System.out.println("Que tal soy un gato de diego"+"\n");
+		// TODO Auto-generated constructor stub
+	}
+	
 
 }

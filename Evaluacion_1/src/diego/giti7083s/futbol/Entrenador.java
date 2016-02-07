@@ -24,6 +24,7 @@ public class Entrenador extends SeleccionFutbol{
 	 * constructor de la clase
 	 */
 	public Entrenador() {
+		System.out.println("Soy el entrenador Vicente del Bosque");
 		// TODO Auto-generated constructor stub
 	}
 

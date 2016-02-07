@@ -31,6 +31,7 @@ public class TelefonoFijo implements Telefono {
 	 * constructor de la clase
 	 */
 	public TelefonoFijo() {
+		System.out.println("Usted a elegido un telefono fijo"+"\n");
 		// TODO Auto-generated constructor stub
 	}
 

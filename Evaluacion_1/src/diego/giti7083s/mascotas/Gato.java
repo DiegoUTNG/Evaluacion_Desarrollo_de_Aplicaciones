@@ -13,6 +13,7 @@ public class Gato extends Mascota {
 	 * constructor de la clase
 	 */
 	public Gato() {
+		System.out.println("Soy un gato y quiero que me cuides");
 		// TODO Auto-generated constructor stub
 	}
 

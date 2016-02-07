@@ -10,6 +10,7 @@ package diego.giti7083s.acciones;
 public class Hombre extends Humano {
 
 	public Hombre() {
+		System.out.println("Soy Diego y estoy programando"+"\n");
 		
 		// TODO Auto-generated constructor stub
 	}

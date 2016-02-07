@@ -3,25 +3,37 @@
  */
 package diego.giti7083s.canino;
 
+import java.util.Scanner;
+
+
+
+
+
 /**
  * @author Diego
  *
  */
 public class Test {
 
-	/**
-	 * 
-	 */
-	public Test() {
-		// TODO Auto-generated constructor stub
+	public void TestCanino(){
+		Animal animal;
+		
+		int i;
+		for(i=0;i<2;i++){
+		Scanner scanner= new Scanner(System.in);
+		Perro perro = new Perro();
+		perro.vacunar();
+		perro.dormir();
+		perro.sacarPaseo();
+		
+		}
+		
+	
 	}
-
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new Test().TestCanino();
 	}
 
-}
+	
+	}

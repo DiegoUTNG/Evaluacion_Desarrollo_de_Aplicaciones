@@ -3,25 +3,26 @@
  */
 package diego.giti7083s.proyecto;
 
+import java.util.Scanner;
+
+
+
 /**
  * @author Diego
  *
  */
 public class Test {
 
+	Proyecto proyecto;
+	public void TestProyecto(){
+		Scanner scanner = new Scanner(System.in);
+		proyecto= new Proyecto(null, null);
+	}
 	/**
 	 * 
-	 */
-	public Test() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		new Test().TestProyecto();
 	}
-
 }

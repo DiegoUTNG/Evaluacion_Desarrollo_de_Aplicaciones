@@ -26,5 +26,9 @@ public class Elefante extends Animal{
 		// TODO Auto-generated method stub
 		super.dibuja();
 	}
+	public Elefante() {
+		System.out.println("Soy un elefante mi dueño es Diego"+"\n");
+		// TODO Auto-generated constructor stub
+	}
 
 }

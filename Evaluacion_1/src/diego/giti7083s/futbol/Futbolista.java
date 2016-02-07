@@ -28,6 +28,7 @@ public class Futbolista extends SeleccionFutbol {
 	 * contructor de la clase
 	 */
 	public Futbolista() {
+		System.out.println("Soy David Villa el jugador mas destacado");
 		// TODO Auto-generated constructor stub
 	}
 

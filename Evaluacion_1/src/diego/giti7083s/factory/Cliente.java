@@ -20,6 +20,7 @@ public class Cliente implements ProductoB, ProductoA, AbstractFactory{
 	 * constructor de la clase
 	 */
 	public Cliente() {
+		System.out.println("El cliente es: Diego Juarez "+"\n");
 		
 			
 			

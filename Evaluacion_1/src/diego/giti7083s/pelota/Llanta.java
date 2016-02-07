@@ -16,5 +16,9 @@ public class Llanta implements Rebotable{
 	public static void setRedondez(int redondez ){
 		
 	}
+	public Llanta() {
+		System.out.println("Eligio una Llanta Goodyear"+"\n");
+		// TODO Auto-generated constructor stub
+	}
 
 }

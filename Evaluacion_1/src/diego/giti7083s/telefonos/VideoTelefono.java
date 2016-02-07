@@ -31,6 +31,7 @@ public class VideoTelefono implements VideoPlayer, Telefono{
 	 * constructor de la clase
 	 */
 	public VideoTelefono() {
+		System.out.println("Usted a elegido una videollamada"+"\n");
 		// TODO Auto-generated constructor stub
 	}
 

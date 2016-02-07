@@ -23,5 +23,10 @@ public class Pato extends Animal{
 		// TODO Auto-generated method stub
 		super.dibuja();
 	}
+	public Pato() {
+		System.out.println("Soy un Pato mi dueño es Diego"+"\n");
 
+		// TODO Auto-generated constructor stub
+	}
+	
 }
