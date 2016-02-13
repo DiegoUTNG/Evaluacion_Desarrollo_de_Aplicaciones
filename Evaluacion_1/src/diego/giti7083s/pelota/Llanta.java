@@ -20,5 +20,15 @@ public class Llanta implements Rebotable{
 		System.out.println("Eligio una Llanta Goodyear"+"\n");
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public void rebotar() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void setFactorRebotar(int factorRebote) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

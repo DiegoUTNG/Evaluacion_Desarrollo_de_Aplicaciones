@@ -37,5 +37,10 @@ public class LAnimal implements Animal{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	@Override
+	public void comunicarse() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }

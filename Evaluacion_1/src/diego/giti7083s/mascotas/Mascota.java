@@ -30,4 +30,10 @@ public class Mascota implements Animal {
 	public void lamer() {
 
 	}
+
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
 }

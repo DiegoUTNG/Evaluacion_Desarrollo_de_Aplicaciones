@@ -10,8 +10,7 @@ public class PelotaFutbol extends Pelota {
 	/**
 	 * comportamiento
 	 */
-	public static void rebotar() {
-	}
+	
 	/**
 	 * 
 	 * @param factorRebotable
@@ -19,5 +18,15 @@ public class PelotaFutbol extends Pelota {
 
 	public static void setFactorRebotable(int factorRebotable) {
 
+	}
+	@Override
+	public void rebotar() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void setFactorRebotar(int factorRebote) {
+		// TODO Auto-generated method stub
+		
 	}
 }

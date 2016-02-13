@@ -14,9 +14,11 @@ public class TelefonoFijo implements Telefono {
 	 * @param numero
 	 * @return
 	 */
-	public Package marcarNumero(int numero) {
-		return null;
+	public static void marcarNumeroo(int numero){
+		
 	}
+		
+	
 	
 	/**
 	 * 
@@ -33,6 +35,18 @@ public class TelefonoFijo implements Telefono {
 	public TelefonoFijo() {
 		System.out.println("Usted a elegido un telefono fijo"+"\n");
 		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void marcarNumero(int numero) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void llamadaEnProceso() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

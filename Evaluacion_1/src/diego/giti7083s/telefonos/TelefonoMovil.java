@@ -14,8 +14,8 @@ public class TelefonoMovil implements Telefono {
 	 * @param numero
 	 * @return
 	 */
-	public Package marcarNumero(int numero) {
-		return null;
+	public static void marcarNumeroo(int numero) {
+		
 	}
 	
 	/**
@@ -30,6 +30,18 @@ public class TelefonoMovil implements Telefono {
 	public TelefonoMovil() {
 		System.out.println("Usted a elegido un telefono movil"+"\n");
 		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void marcarNumero(int numero) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void llamadaEnProceso() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

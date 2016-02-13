@@ -13,7 +13,7 @@ public abstract class Pelota implements Rebotable{
 	 * 
 	 * @param redondez
 	 */
-	public static void setRedondez(int redondez){
+	public void setRedondez(int redondez){
 		
 	}
 	public Pelota() {

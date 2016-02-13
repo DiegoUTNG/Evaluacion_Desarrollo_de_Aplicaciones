@@ -12,12 +12,11 @@ public interface Rebotable {
 	 * comportamiento propio de la clase
 	 */
 
-	public static void rebotar() {
+	void rebotar();
+	
 
-	}
-
-	public static void setFactorRebotar(int factorRebote) {
-
-	}
+	void setFactorRebotar(int factorRebote);
+	
 
 }
+

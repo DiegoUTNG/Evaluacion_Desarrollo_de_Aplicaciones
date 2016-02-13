@@ -11,29 +11,25 @@ public interface IntegranteSeleccionFutbol {
 	/**
 	 * comportamientos de la clase IntegranteSeleccionFutbol
 	 */
-	public static void concentrarse() {
+	void concentrarse();
 
-	}
+	
 	/**
 	 * comportamientos de la clase IntegranteSeleccionFutbol
 	 */
 
-	public static void viajar() {
+	 void viajar();
 
-	}
 	/**
 	 * comportamientos de la clase IntegranteSeleccionFutbol
 	 */
 
-	public static void entrenar() {
+	void entrenar();
 
-	}
 	/**
 	 * comportamientos de la clase IntegranteSeleccionFutbol
 	 */
 
-	public static void juagarPartido() {
-
-	}
+	void juagarPartido();
 
 }

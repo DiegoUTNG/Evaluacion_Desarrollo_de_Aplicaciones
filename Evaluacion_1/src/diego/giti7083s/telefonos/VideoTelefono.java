@@ -13,8 +13,8 @@ public class VideoTelefono implements VideoPlayer, Telefono{
 	 * @param numero
 	 * @return
 	 */
-	public Package marcarNumero(int numero) {
-		return null;
+	public void marcarNumero(int numero) {
+		
 	}
 	
 	/**
@@ -33,6 +33,12 @@ public class VideoTelefono implements VideoPlayer, Telefono{
 	public VideoTelefono() {
 		System.out.println("Usted a elegido una videollamada"+"\n");
 		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void llamadaEnProceso() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

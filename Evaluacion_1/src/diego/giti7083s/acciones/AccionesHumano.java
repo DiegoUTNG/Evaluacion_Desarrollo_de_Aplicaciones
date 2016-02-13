@@ -11,28 +11,23 @@ public interface AccionesHumano {
 	/**
 	 * metodo publico bailar
 	 */
-	public static void bailar(){
+	 void bailar();
 		
-	}
+	
 	/**
 	 * metodo publico tocarInstrumentos
 	 */
-	public static void tocarInstrumentos(){
+	void tocarInstrumentos();
 		
-	}
 	/**
 	 * metodo publico estudiar
 	 */
-	public static void estudiar(){
-		
-		
-	}
+	void estudiar();
+	
 	/**
 	 * metodo publico trabajar
 	 */
-	public static void trabajar(){
-		
-	}
-		
+	void trabajar();
+	
 	
 }

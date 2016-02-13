@@ -22,4 +22,10 @@ public class Leon implements Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void comer() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
